@@ -239,12 +239,11 @@ footer {
     display: none;
   }
 }
-
-@media only screen and (max-width: 930px) {
-  #cover {
-    height: 1500px;
-    width: 50%;
-  }
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+      .modal-content {
+          width: 100%;
+      }
   #aboutus p {
     margin-top: 250px;
     width: 30%;
