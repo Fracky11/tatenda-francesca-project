@@ -1,6 +1,7 @@
 body {
   font-family: arial, sans-serif;
   margin: 0;
+  background-image: url("holiday-image.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
