@@ -1,9 +1,9 @@
 body {
-  background-attachment: fixed;
-  background-image: url("bg-image.jpg");
-  background-size: cover;
   font-family: arial, sans-serif;
   margin: 0;
+  background-image: url("back-image.jpg");
+  background-size: cover;
+  background-attachment: fixed;
 }
 /*** Commonlinks wrapper ***/
 #wrapper {

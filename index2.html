@@ -1,0 +1,111 @@
+<html>
+<head>
+  <title>Travel Agency</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+  <div id="container">
+    <div id="wrapper">
+      <div id="commonlinks">
+        <ul>
+          <li><a href="#">Contact us</a>
+          </li>
+          <li><a href="#">Help</a>
+          </li>
+        </ul>
+      </div>
+      <h1> Wanderlust Travel Agency
+      </h1>
+      <div id="nav">
+        <ul>
+          <li><strong><a href="index.html">Home</a></strong></li>
+          <li><strong><a href="currentpage">Holiday</a></strong></li>
+          </a>
+        </ul>
+      </div>
+    </div>
+
+ <div id="holiday-welcome">
+  <h1> Welcome to the Holiday Page</h1>
+</div>
+ <!------Holiday Images---->
+ <div id="first-image">
+   <!--- Holiday images 1 --->
+ <h2>SUMMER GETAWAY</h2>
+ <img id="myImg" src="summer.jpg" alt="Type of holiday" width="300" height="200">                                                                                                                                    <p>Click on the image for more details</p>
+ </div>
+<div id="second-image">
+ <h2>ENJOYING THE SNOW</h2>
+ <img id="myImg-two" src="winter.jpg" alt="Type of holiday" width="300" height="200">                                                                                                                                    <p>Click on the image for more details</p>
+ </div>
+ <!--- Holiday images 2 --->
+<div id="first-image">
+ <h2>ISLAND RELAX</h2>
+ <img id="myImg" src="summer1.jpg" alt="Type of holiday" width="300" height="200">                                                                                                                                    <p>Click on the image for more details</p>
+ </div>
+<div id="second-image">
+ <h2>WINTER CHILLOUT</h2>
+ <img id="myImg" src="winter1.jpg" alt="Type of holiday" width="300" height="200">                                                                                                                                    <p>Click on the image for more details</p>
+ </div>
+ <!--- Holiday images 3 --->
+<div id="first-image">
+ <h2>ADVENTURE TIME</h2>
+ <img id="myImg" src="trek1.jpg" alt="Type of holiday" width="300" height="200">                                                                                                                                    <p>Click on the image for more details</p>
+ </div>
+<div id="second-image">
+ <h2>ART ADDICTED</h2>
+ <img id="myImg" src="cult1.jpg" alt="Type of holiday" width="300" height="200">                                                                                                                                    <p>Click on the image for more details</p>
+ </div>
+ <!--- Holiday images 4 --->
+<div id="first-image">
+ <h2>WALKING IN THE FOREST</h2>
+ <img id="myImg" src="TREK2.jpg" alt="Type of holiday" width="300" height="200">                                                                                                                                    <p>Click on the image for more details</p>
+ </div>
+<div id="second-image">
+ <h2>CULTURAL TYPE</h2>
+ <img id="myImg" src="cult2.jpg" alt="Type of holiday" width="300" height="200">                                                                                                                                    <p>Click on the image for more details</p>
+ </div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+<!--- Footer -->
+ <footer id="social-network">
+    <a href="http://www.twitter.com" class="fa fa-twitter"></a>
+    <a href="https://www.linkedin.com" class="fa fa-linkedin"></a>
+    <a href="http://www.youtube.com" class="fa fa-youtube"></a>
+    <a href="http://www.flickr.com" class="fa fa-flickr"></a>
+    <a href="http://feeds.feedburner.com" class="fa fa-rss"></a>
+    <p style="text-align:center;"> © Tatenda Ruzvidzo and Francesca Paoletti Code For Girls @ Birkbeck London,2018</p>
+    </>
+  </footer>
+ <script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+document.getElementById('myImg-two');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+</script>
