@@ -72,17 +72,11 @@ h1 {
    text-align:center;
    padding:100px;
 }
-
-
-
-
-
 #myImg {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
 }
-
 #myImg:hover {opacity: 0.7;}
 
 /* The Modal (background) */
@@ -218,12 +212,12 @@ footer {
 
 #first-image{
   float:left;
-  color:green;
+  color:#805500;
   margin:10px;
   text-align:center;
 }
 #second-image{
   float:right;
-  color:red;
+  color:#805500;
   margin:10px;
 }
